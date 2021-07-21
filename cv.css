@@ -1,0 +1,14 @@
+
+.imageflottante {
+    ;overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px
+    border-radius:50px;
+    width:90px;
+    height:90px;}
+
+h1 {color: darkblue;}
+h2{color: darkblue ;}
+.head {background-color:thistle;border-radius: 1%;}
+.profil{background-color: mistyrose;border-radius:1% ;text-align: justify;}
+.competences{background-color: thistle;border-radius: 1%;text-align: justify;}
