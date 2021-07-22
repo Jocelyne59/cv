@@ -1,5 +1,8 @@
 
-.imageflottante {
+/*version mobile*/
+
+@media screen and (max-width: 700px){
+    .imageflottante {
     overflow:hidden;
     -webkit-border-radius:150px;
     -moz-border-radius:150px;
@@ -11,9 +14,42 @@ h1 {color: darkblue;}
 h2{color: darkblue ;}
 .date{font-weight: bold;}
 .head {background-color: rgb(219, 180, 202);text-align: center;}
-.profil{background-color:rgba(245, 230, 242);text-align: justify;width: 25%;}
-.competences{background-image:url(images/sky.jpg);text-align: justify;width: 75%;}
+.profil{background-color:rgba(245, 230, 242);text-align: justify;}
+.competences{background-image:url(images/sky.jpg);text-align: justify;}
 .titre {border:solid darkblue; border-radius: 20px;
 text-align: center;}
 
-#general {display: flex;}
+}
+
+/* version pc*/
+
+@media screen and (min-width: 900px){
+    .titre {border:solid darkblue; border-radius: 20px;
+        text-align: center;}
+        
+
+            .imageflottante {
+                overflow:hidden;
+                -webkit-border-radius:150px;
+                -moz-border-radius:150px;
+                border: radius 150px;
+                width: 150px;
+                height: 150px;}
+            
+            h1 {color: darkblue;}
+            h2{color: darkblue ;}
+            .date{font-weight: bold;}
+            .head {background-color: rgb(219, 180, 202);text-align: center;}
+            .profil{background-color:rgba(245, 230, 242);text-align: justify;}
+            .competences{background-image:url(images/sky.jpg);text-align: justify;}
+
+            
+
+        }
+
+
+
+
+
+
+}
