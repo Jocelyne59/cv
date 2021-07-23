@@ -1,55 +1,49 @@
+    
 
-/*version mobile*/
-
-@media screen and (max-width: 700px){
-    .imageflottante {
-    overflow:hidden;
-    -webkit-border-radius:150px;
-    -moz-border-radius:150px;
-    border: radius 150px;
-    width: 150px;
-    height: 150px;}
-
-h1 {color: darkblue;}
-h2{color: darkblue ;}
-.date{font-weight: bold;}
-.head {background-color: rgb(219, 180, 202);text-align: center;}
-.profil{background-color:rgba(245, 230, 242);text-align: justify;}
-.competences{background-image:url(images/sky.jpg);text-align: justify;}
-.titre {border:solid darkblue; border-radius: 20px;
-text-align: center;}
-
-}
-
-/* version pc*/
-
-@media screen and (min-width: 900px){
-    .titre {border:solid darkblue; border-radius: 20px;
-        text-align: center;}
-        
-
+/* En tête */
             .imageflottante {
                 overflow:hidden;
                 -webkit-border-radius:150px;
                 -moz-border-radius:150px;
-                border: radius 150px;
-                width: 150px;
+                border-radius:  150px;
+                 width: 150px;
                 height: 150px;}
             
+ /*apparence general*/               
             h1 {color: darkblue;}
             h2{color: darkblue ;}
             .date{font-weight: bold;}
             .head {background-color: rgb(219, 180, 202);text-align: center;}
             .profil{background-color:rgba(245, 230, 242);text-align: justify;}
             .competences{background-image:url(images/sky.jpg);text-align: justify;}
+            .titre {border:solid darkblue; border-radius: 20px;
+                text-align: center;}
+                
+ @media   (min-width:800px) and (max-width:1600px) {
 
-            
+    /* container flex */
+    .general {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+       
+    }
 
-        }
+    /* div 1 */
+    .profil {order: 1;flex:3;}
+
+    /* div 2 */
+    .competences {order:2;
+    flex: 7;}
+
+ }
+
+    
+     
+ 
 
 
 
 
 
 
-}
