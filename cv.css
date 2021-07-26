@@ -13,9 +13,10 @@
             h1 {color: darkblue;}
             h2{color: darkblue ;}
             .date{font-weight: bold;}
-            .head {background-color: rgb(219, 180, 202);text-align: center;}
-            .profil{background-color:rgba(245, 230, 242);text-align: justify;}
-            .competences{background-image:url(images/sky.jpg);text-align: justify;}
+            
+            .head {background-color: rgb(228, 201, 216);text-align: center;}
+            .profil{background-color:rgba(245, 230, 242);text-align: justify;height: 980px;}
+            .competences{background-image:url(images/sky.jpg);text-align: justify;height:1200px}
             .titre {border:solid darkblue; border-radius: 20px;
                 text-align: center;}
                 
@@ -31,12 +32,12 @@
     }
 
     /* div 1 */
-    .profil {order: 1;flex:3; height: 1050px;
+    .profil {order: 1;flex:3; height: 1170px;
     }
     
     /* div 2 */
     .competences {order:2;
-    flex: 7;height: 1050px; }
+    flex: 7;height: 1170px; }
 
  }
 
